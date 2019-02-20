@@ -1,0 +1,79 @@
+/*³õÊ¼»¯´úÂë*/
+body,
+div,
+p,
+span,
+a,
+img,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+strong,
+em,
+del,
+ins,
+i,
+dl,
+dt,
+dd {
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+img {
+    border:none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+input {
+    border:none;
+    outline: none;
+}
+
+body {
+    font:12px/100% "Î¢ÈíÑÅºÚ";
+}
+
+.clearfix::after {
+    content:".";
+    height:0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    *zoom:1;
+}
+
+.w {
+    width: 1366px;
+    margin: 0 auto;
+}
